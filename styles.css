@@ -2,6 +2,9 @@
 body
 {
     background-color: #97D2EC;
+    font-family: "Open Sans", serif;
+    font-style: normal;
+    font-size: large;
 }
 /*
     hr
@@ -20,4 +23,14 @@ hr
     border-width:4px;
     border-style: none;
     border-top-style:solid;
+}
+h2{
+    color: #0081C9;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+h3
+{
+    color: #0081C9;
 }
