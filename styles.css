@@ -55,3 +55,15 @@ when the mouse is hovering over a certain element.
 a:hover{
     color: red;
 }
+input{
+    background-color: #97D2EC;
+}
+input:hover{
+    background-color: white;
+}
+textarea{
+    background-color: #97D2EC;
+}
+textarea:hover{
+    background-color: white;
+}
