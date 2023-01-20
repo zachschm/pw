@@ -1,4 +1,17 @@
 
+/*  Tag selectors should be used broadly
+    ID = can only be used once throughout an entire css / html file
+         should be used sparingly or never should be used
+    Class = Group of related items, can be used as many times as required
+            ID can the be used within classes to alter individual items
+            Multiple different ID's can be used but not the same id multiple
+            times. The same html element can only contain one ID as well.
+            However, Multiple classes can be used within the same html element
+
+    Both of these items will both over ride general css code for example
+    the body selector below will be overridden if the body has a class
+    or id specifying alternative details.
+ */
 body
 {
     background-color: #97D2EC;
@@ -33,4 +46,12 @@ h2{
 h3
 {
     color: #0081C9;
+}
+/*
+This is a sudo class that effects certain actions,
+for example :hover is the most popular that effects only
+when the mouse is hovering over a certain element.
+ */
+a:hover{
+    color: red;
 }
